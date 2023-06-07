@@ -1,0 +1,127 @@
+body {
+  font-family: 'Roboto', serif;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h4 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h5 {
+  font-family: 'Roboto Slab', serif;
+}
+
+#efa-logo {
+  animation-name: fade-in;
+  animation-duration: 3s;
+}
+
+@keyframes slide-right-fade-in {
+  from {
+      opacity: 0%;
+      transform: translateX(-900px)
+  }
+  to {
+      opacity: 100%;
+      transform: translateX(0px)
+  }
+}
+
+@keyframes fade-in {
+  from {
+      opacity: 0%;
+  }
+  to {
+      opacity: 100%
+  }
+}
+
+.display-4 {
+  animation-name: slide-right-fade-in;
+  animation-duration: 1.5s
+}
+
+.display-6 {
+  animation-name: slide-right-fade-in;
+  animation-duration: 1s
+}
+
+.homeheader {
+  text-align: center;
+  background-color: #41a8be;
+  border-radius: 0;
+  color: black;
+}
+
+#about {
+  animation-name: fade-in;
+  animation-duration: 3s;
+}
+
+#ep-logo {
+  animation-name: fade-in;
+  animation-duration: 3s;
+}
+
+.img-fluid {
+  width: auto;
+  height: auto;
+  border-radius: 2%;
+  box-shadow: 5px 10px 18px black;
+  animation-name: slide-right-fade-in;
+  animation-duration: 2.5s
+}
+
+#projects {
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+  margin-bottom: .5em;
+}
+
+#projects:hover {
+  width: 220px;
+  height: 220px;
+  box-shadow: -5px 10px 18px black;
+  border-radius: 5%;
+  margin-bottom: .5em;
+}
+
+#githubcat {
+  width: 70px;
+  height: 70px;
+  border-radius: 2px;
+  padding-right: 10px;
+}
+
+#linkedin {
+  width: 70px;
+  height: 70px;
+  border-radius: 2px;
+  padding-left: 10px;
+}
+
+#contact {
+  align-items: center;
+  text-align: center;
+}
+
+#resumebutton {
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+      box-shadow: 0 0 5px -5px #D7E9F7 ;
+  }
+  to {
+      box-shadow: 0 0 5px 5px #D7E9F7 ;
+  }
+}
